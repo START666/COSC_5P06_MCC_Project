@@ -9,3 +9,5 @@ class AccessPoint:
         self.memory_size = memory_size
         self.address = address
         self.link_list = []
+
+

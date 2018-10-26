@@ -5,7 +5,7 @@ class Machine1:
         machine1 = can.create_rectangle(10, 10, 100, 100, fill="black")
 
 class Machine2:
-    def __init__(self, master, can):
+    def __init__(self, master, canvas):
         machine2 = canvas.create_rectangle(200, 10, 290, 100, fill="black")
 
 class Machine3:

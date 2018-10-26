@@ -12,7 +12,7 @@ class Device:
     global address
     global link_list
 
-    def __init__(self, computation_power, address, max_memory_size):
+    def __init__(self, computation_power, max_memory_size, address):
         self.computation_power = computation_power
         self.max_memory_size = max_memory_size
         self.address = address
